@@ -1,6 +1,6 @@
 # QUOTES
 
-> Gourmet is a hypothetical restuarant and this is its table reservation web app.
+> ....
 
 ## :hammer: Built With
 
