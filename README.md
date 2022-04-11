@@ -1,6 +1,6 @@
 # QUOTES
 
-> ....
+> An application where users should be able to create quotes and have those quotes voted on whether they are terrible or are inspirational. 
 
 ## :hammer: Built With
 
