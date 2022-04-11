@@ -7,9 +7,9 @@
 - HTML, CSS, JS/TS
 - Angular
 
-## :link: Link to web app:
+## :link: Link to web app(Deployment Link):
 
-<link to webpage>
+https://blancc-page.github.io/angular-ip/
 
 ### :computer: Setup
 To get a local copy up and running follow these simple example steps.
