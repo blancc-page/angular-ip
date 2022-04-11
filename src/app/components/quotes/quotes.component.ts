@@ -18,7 +18,8 @@ export class QuotesComponent implements OnInit {
   }
 
   deleteQuote(quote: QuoteInterface){
-  this.quotes = this.quotes.filter(q => q.id !== quote.id);
+    this.quotes = this.quotes.filter((q) => q.id !== quote.id);
+    console.log("delete")
   }
 
   addQuote(quote: QuoteInterface){
