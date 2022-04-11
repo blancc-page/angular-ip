@@ -1,11 +1,21 @@
-<form class="add-form" (ngSumbit)="onSubmit()">
+<form class="add-form" (ngSubmit)="onSubmit()">
     <div class="form-control">
         <label for="text">Quote</label>
-        <input type="text" name="text" [(ngModel)]="text" id="text" placeholder="Add Quote">
+        <input 
+        type="text" 
+        name="text"
+        [(ngModel)]="text"
+        id="text" 
+        placeholder="Add Quote">
     </div>
+
     <div class="form-control">
-        <label for="text">Author</label>
-        <input type="text" name="author" [(ngModel)]="author" id="author" placeholder="Add Author">
+        <label for="day">Author</label>
+        <input type="text" 
+        name="author" 
+        [(ngModel)]="author"
+        id="author" 
+        placeholder="Add Author">
     </div>
-    <input type="submit" value="Save Quote" class="btn btn-block">
+    <input type="submit" value="Save Task" class="btn btn-block">
 </form>

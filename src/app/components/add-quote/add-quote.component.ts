@@ -7,9 +7,10 @@ import { QUOTES } from 'src/app/mock-quotes';
   styleUrls: ['./add-quote.component.css']
 })
 export class AddQuoteComponent implements OnInit {
-  @Output() onAddQuote = new EventEmitter<QuoteInterface>();
-  text!: string;
-  author!: string;
+  @Output() onAddQuote: EventEmitter<QuoteInterface> = new EventEmitter();
+    text!: string;
+    author!: string;
+    reminder!: boolean;
 
   constructor() { }
 
@@ -25,6 +26,7 @@ export class AddQuoteComponent implements OnInit {
     const newQuote = {
       text: this.text,
       author: this.author,
+      reminder: this.reminder
       
     }
 
@@ -33,7 +35,7 @@ export class AddQuoteComponent implements OnInit {
     this.text = "";
     this.author = "";
 
-    QUOTES.push(newQuote);
+    // QUOTES.push(newQuote);
   }
 
 }
