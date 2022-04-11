@@ -1,0 +1,11 @@
+<form class="add-form" (ngSumbit)="onSubmit()">
+    <div class="form-control">
+        <label for="text">Quote</label>
+        <input type="text" name="text" [(ngModel)]="text" id="text" placeholder="Add Quote">
+    </div>
+    <div class="form-control">
+        <label for="text">Author</label>
+        <input type="text" name="author" [(ngModel)]="author" id="author" placeholder="Add Author">
+    </div>
+    <input type="submit" value="Save Quote" class="btn btn-block">
+</form>
