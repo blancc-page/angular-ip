@@ -36,11 +36,6 @@ Feel free to check the [issues page](../../issues/).
 ## :muscle: Show your support
 
     Please give a⭐️if you love this project.
-## :raised_hands: Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
