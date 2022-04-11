@@ -4,4 +4,5 @@
                 *ngFor="let quote of quotes"
                 [quote]="quote">        
                 (onDeleteQuote)="deleteQuote(quote)"       
+                (onToggleReminder)="toggleReminder(task)">
 </app-quote-item>

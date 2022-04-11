@@ -9,8 +9,8 @@ import { QuoteInterface } from 'src/app/QuoteInterface';
   styleUrls: ['./quotes.component.css']
 })
 export class QuotesComponent implements OnInit {
-  quotes: QuoteInterface[] = [];
-  // quoteLength = this.quotes.length() + 1;
+  quotes: QuoteInterface[] = QUOTES;
+
   
   constructor() { }
 
@@ -18,11 +18,11 @@ export class QuotesComponent implements OnInit {
   }
 
   deleteQuote(quote: QuoteInterface){
-  this.quotes = this.quotes.filter(t => t.id !== quote.id);
+  this.quotes = this.quotes.filter(q => q.id !== quote.id);
   }
 
   addQuote(quote: QuoteInterface){
     console.log(quote);
-    this.quotes.push(quote);
+    this.quotes.unshift(quote);
   }
 }

@@ -12,7 +12,7 @@ export class QuoteItemComponent implements OnInit {
   @Output() onDeleteQuote: EventEmitter<QuoteInterface> = new EventEmitter();
   @Output() onToggleReminder: EventEmitter<QuoteInterface> = new EventEmitter();
 
-  quotes: QuoteInterface[] = [];
+  // quotes: QuoteInterface[] = [];
   faTimes = faTimes;
   color: string = "red";
 
